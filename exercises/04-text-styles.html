@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Styles | Exercises</title>
+  <style>
+    /*--reset paragraph default spacing */
+    p{
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    button{
+      background-color: rgb(46, 164, 79);
+      color: white;
+      padding: 8px;
+      padding-left: 20px;
+      padding-right: 20px;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: opacity 0.15s;
+      margin-bottom: 30px;
+    }
+    button:hover{
+      opacity: 0.8;
+    }
+    div{
+      width: 400px;      
+    }
+
+    .tohoma-text{
+      font-family: Tohoma;
+      font-size: 25px;
+      color: black;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }  
+    .arial-text-1{
+      font-family: Arial;
+      font-size: 25px;
+      font-weight: bold;
+    }
+    .arial-text-2{
+      font-family: Arial;
+      font-style: italic;
+      font-size: 18px;
+      color: rgb(237, 48, 48);
+      margin-bottom: 30px;
+    }
+    .arial-text-3{
+      font-family: Arial;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .arial-text-4{
+      font-family: Arial;
+      font-size: 16px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .arial-text-5{
+      font-family: Arial;
+      font-size: 14px;
+      text-align: center;
+      color: rgb(96, 96, 96);
+      margin-bottom: 30px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .verdana-text-1{
+      font-family: Verdana;
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .verdana-text-2{
+      font-family: Verdana;
+      color: rgb(96, 96, 96);
+      margin-bottom: 10px;
+    }
+    .verdana-text-3{
+      font-family: Verdana;
+      width: 300px;
+      font-size: 15px;
+      margin-bottom: 15px;
+    }
+    .mac-new{
+      font-family: Arial;
+      text-align: center;
+      color: red;
+      padding-bottom: 5px;
+    }
+    .mac-version{
+      font-family: Arial;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      padding-bottom: 5px;
+    }
+    .mac-description{
+      font-family: Arial;
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+      padding-bottom: 5px;
+    }
+    .mac-price{
+      text-align: center;
+      color: rgb(96, 96, 96);
+      font-weight: bold;
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+    .mac-buy{
+      text-align: center;
+    }
+    .buy-button{
+      background-color: rgb(130, 130, 239);
+      border-radius: 15px;
+      padding: 5px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .stock-p1{
+      font-weight: bold;
+      font-family: Arial;
+      font-size: 25px;
+      margin-bottom: 5px;
+    }
+    .stock-p1 span{
+      font-weight: bold;
+      font-size: 16px;
+      color: rgb(96, 96, 96);
+    }
+    .stock-p2{
+      font-family: Arial;
+      font-size: 15px;
+      color: rgb(96, 96, 96);
+      margin-bottom: 10px;
+    }
+    .stock-p3{
+      font-family: Arial;
+      color: rgb(96, 96, 96);
+      margin-bottom: 30px;
+    }
+    .stock-p3 span{
+      color: red;
+     
+    }
+    .tweet-author{
+      font-family: Arial;
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .tweet-author span{
+      font-family: Arial;
+      font-weight: lighter;
+      color: rgb(96, 96, 96);
+    }
+    .tweet-content{
+      font-family: Arial;
+      margin-bottom: 15px;
+      line-height: 20px;
+    }
+    .tweet-additionalInfo{
+      font-family: Arial;
+      line-height: 20px;
+    }
+    .tweet-additionalInfo span{
+      font-family: Arial;
+      color: rgb(130, 130, 239);
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <!--Text with Tohoma font-->
+  <p class="tohoma-text">
+    This is a Tohama font
+  </p>
+
+  <!--Text with Arial font-->
+  <p class="arial-text-1">
+    Biggest Deals of the Year!
+  </p>
+  <p class="arial-text-2">
+    Sales end Tuesday
+  </p>
+
+  <div>
+      <p class="arial-text-3">
+        Shopping for your business?
+      </p>
+      <p class="arial-text-4">
+        See how Apple at Work can help.
+      </p>
+      <p class="arial-text-5">
+        Learn more &gt;
+      </p>
+  </div>
+
+  <!--Text With Verdana Font-->
+  <p class="verdana-text-1">
+    HTML CSS Course
+  </p>
+  <p class="verdana-text-2">
+    Beginner to Pro
+  </p>
+  <p class="verdana-text-3">
+    In this course, we'll learn the skills you need to become a developer.
+  </p>
+  <button>
+    Get Started
+  </button>
+
+  <!--More challenging-->
+  <div>
+  <p class="mac-new">
+    New
+  </p>
+  <p class="mac-version">
+    MacBook Pro
+  </p>
+  <p class="mac-description">
+    Supercharged for pros.
+  </p>
+  <p class="mac-price">
+    From &dollar;1999
+  </p>
+  <p class="mac-buy">
+    <button class="buy-button">
+      Buy
+    </button>
+
+  </p>
+</div>
+
+<div>
+  <p class="stock-p1">
+    1,049.61 <span>USD</span>
+  </p>
+  <p class="stock-p2">
+    +18.05 (1.75%) today
+  </p>
+  <p class="stock-p3">
+    After hours 1,048.00 <span>-1.61 (-0.15%)</span>
+  </p>
+</div>
+
+<div>
+  <p class="tweet-author">
+    freeCodeCamp.org <span>@freeCodeCamp 1h</span>
+  </p>
+  <p class="tweet-content">
+    As a web developer, you'll want to make your projects easy to use and navigate around
+  </p>
+  <p class="tweet-additionalInfo">
+    Here <span>@chp_it</span> outlines the top skills new developers should have. 
+  </p>
+</div>
+
+</body>
+</html>
